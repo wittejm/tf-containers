@@ -9,4 +9,4 @@ I tried building an old version from source and adding it to the `tfenv` list li
 - Verify that tfenv sees the version in that list using `tfenv list`
 - Set the active version using `tfenv use`.
 
-This didn't solve my problem because some plugins in that older workspace specifically didn't work on ARM. So I got terraform to run in docker, using the present setup.
+This didn't solve my problem because some plugins in that older workspace specifically didn't work on ARM.
